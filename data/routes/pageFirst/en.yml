@@ -8,6 +8,17 @@ fields:
 # root placeholder names are defined in the package.json config section (required for Sitecore deployment)
 placeholders:
   jss-main:
+  - componentName: TopBanner
+    fields:
+      heading: Top Banner Component 1
+      image:
+        src: http://laoblogger.com/images/flower-background-photo-5.jpg
+  - componentName: BadgeIcon
+    fields:
+      heading: Badge with icon
+      icon:
+        src: http://laoblogger.com/images/flower-background-photo-5.jpg
+      text: This is just a text sample of Lorem ipsum, sumit dolorem trunci and etc.
   - componentName: ContentBlock
     fields:
       heading: This is the First Test Page of the APP (heading)
@@ -19,6 +30,13 @@ placeholders:
 
           <div class="alert alert-dark" role="alert">
             <h4>Sub heading</h4>
-            <p>Sopme more text here</p>
+            <p>Some more text here</p>
           </div>
+
+  - componentName: SmallFooter
+    fields:
+      heading: This foooter goes with email link of
+      emailLink:
+        href: info@cucumber.co.nz
+        text: info@cucumber.co.nz
 
