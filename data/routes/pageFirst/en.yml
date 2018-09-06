@@ -37,6 +37,6 @@ placeholders:
     fields:
       heading: This foooter goes with email link of
       emailLink:
-        href: info@cucumber.co.nz
+        href: mailto:info@cucumber.co.nz
         text: info@cucumber.co.nz
 

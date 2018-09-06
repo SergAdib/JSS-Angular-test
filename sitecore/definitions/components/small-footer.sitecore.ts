@@ -10,7 +10,7 @@ export default function(manifest: Manifest) {
     icon: SitecoreIcon.DocumentTag,
     fields: [
       { name: 'heading', type: CommonFieldTypes.SingleLineText },
-      { name: 'emailLink', type: CommonFieldTypes.ItemLink },
+      { name: 'emailLink', type: CommonFieldTypes.GeneralLink },
     ],
   });
 }
