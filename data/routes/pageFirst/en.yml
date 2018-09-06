@@ -12,12 +12,12 @@ placeholders:
     fields:
       heading: Top Banner Component 1
       image:
-        src: http://laoblogger.com/images/flower-background-photo-5.jpg
+        src: /data/media/img/flower-background-photo-5.jpg
   - componentName: BadgeIcon
     fields:
       heading: Badge with icon
       icon:
-        src: http://laoblogger.com/images/flower-background-photo-5.jpg
+        src: /data/media/img/flower-background-photo-5.jpg
       text: This is just a text sample of Lorem ipsum, sumit dolorem trunci and etc.
   - componentName: ContentBlock
     fields:
